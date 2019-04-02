@@ -36,10 +36,6 @@ padding-right: 2rem;
     padding-bottom: 2rem;
 }
 
-.site-header {
-
-}
-
 .site-header .site-title a {
     display: block;
     text-decoration: none;
@@ -48,15 +44,13 @@ padding-right: 2rem;
 }
 
 .site-header .site-description {
-font-family: "Open Sans Condensed", sans-serif;
-text-transform: uppercase;
-letter-spacing: 0.055em;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.055em;
 }
 
 .site-footer .wrapper {
-
-justify-content: space-between;
-
+    justify-content: space-between;
 }
 
 .site-footer .wrapper {
@@ -117,31 +111,30 @@ justify-content: space-between;
 /*
 *Sections - Call to action*/
 
-
 section.call-to-action .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2rem;
- }
+}
 
 section.call-to-action .copy{
     flex: 1 0 100%;
     text-align: center;
- }
+}
 
- section.call-to-action i.fas{
+section.call-to-action i.fas{
     display: none;
     }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 800px) {
 
-    section.call-to-action i.fas{
+    section.call-to-action i.fas {
         font-size: 9rem;
         display: block;
         }
 
-        section.call-to-action .copy{
+        section.call-to-action .copy {
             text-align: left;
             flex: 0 0 35rem;
             margin-right: 2rem;
